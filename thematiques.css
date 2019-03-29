@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html,
 body,
 div,
@@ -182,6 +177,48 @@ h2 {
 
 }
 
+.searchbar {
+    display: grid;
+    grid-column-start: 2;
+    margin-top: 10%;
+    width: 10px;
+    margin-left: 10%;
+
+}
+
+
+.grid-container {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #3b77ff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #edf4f3;
+}
+
+.button:hover {background-color: #6469e5}
+
+.button:active {
+  background-color: #f4f887;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
 
 nav {
 
@@ -239,15 +276,6 @@ nav {
     padding: 1em 1em;
 }
 
-.searchbar {
-    display: grid;
-    grid-column-start: 2;
-    margin-top: 10%;
-    width: 10px;
-    margin-left: 10%;
-
-}
-
 
 .grid-container {
 
@@ -256,32 +284,6 @@ nav {
 
 
 }
-
-.button {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 12px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #3b77ff;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #edf4f3;
-}
-
-.button:hover {background-color: #6469e5}
-
-.button:active {
-  background-color: #f4f887;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-/*======================GALLERY=========================*/
-
 
 
 .gallery-grid {
@@ -323,7 +325,7 @@ nav {
     -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
-    background-image: url(img/maldives.jpg);
+    background-image: url(img/budhist.jpg);
     background-size: cover;
 
 }
@@ -337,7 +339,7 @@ nav {
     -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
-    background-image: url(img/hollywood.jpg);
+    background-image: url(img/canoe.jpg);
     background-size: cover;
 
 
@@ -352,7 +354,7 @@ nav {
     -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
-    background-image: url(img/ldn.jpg);
+    background-image: url(img/elephant.jpg);
     background-size: cover;
 
 }
@@ -366,7 +368,7 @@ nav {
     -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
-    background-image: url(img/bali.jpg);
+    background-image: url(img/family.jpg);
     background-size: cover;
 
 }
@@ -380,7 +382,7 @@ nav {
     -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
-    background-image: url(img/nyc.jpg);
+    background-image: url(img/foret.jpg);
     background-size: cover;
 
 }
@@ -394,7 +396,7 @@ nav {
     -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
-    background-image: url(img/sydney.jpg);
+    background-image: url(img/ski.jpg);
     background-size: cover;
 
 }
@@ -408,7 +410,7 @@ nav {
     -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
-    background-image: url(img/amsterdam.jpg);
+    background-image: url(img/vila.jpg);
     background-size: cover;
 
 }
@@ -423,7 +425,7 @@ nav {
     -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
-    background-image: url(img/buenosaires.jpg);
+    background-image: url(img/massage.jpg);
     background-size: cover;
 
 }
@@ -438,7 +440,7 @@ nav {
     -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
-    background-image: url(img/lagos.jpg);
+    background-image: url(img/polynesie.jpg);
     background-size: cover;
 
 }
@@ -453,7 +455,7 @@ nav {
     -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
-    background-image: url(img/toronto.jpg);
+    background-image: url(img/bottles.jpg);
     background-size: cover;
 
 }
